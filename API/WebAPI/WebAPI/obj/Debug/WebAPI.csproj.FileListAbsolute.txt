@@ -78,7 +78,6 @@ C:\FIS-2\API\WebAPI\WebAPI\bin\System.Web.WebPages.Deployment.xml
 C:\FIS-2\API\WebAPI\WebAPI\bin\System.Web.WebPages.Razor.xml
 C:\FIS-2\API\WebAPI\WebAPI\bin\Antlr3.Runtime.pdb
 C:\FIS-2\API\WebAPI\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
 C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
 C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
 C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.dll

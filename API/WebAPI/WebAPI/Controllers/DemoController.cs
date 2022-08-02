@@ -47,5 +47,13 @@ namespace WebAPI.Controllers
             mystrings[id - 1] = val;
             return mystrings;
         }
+
+        //Delete
+
+        public IEnumerable<string>Delete(int id)
+        {
+            mystrings.RemoveAt(id);
+            return mystrings;
+        }
     }
 }
