@@ -25,4 +25,42 @@ HTTP Verbs  CRUD
  Delete
 
 - helps in content negotiation (xml/json/html/text)
+
+.Net framework - 
+  EF Entity Framework - orm (object relation mapper)
+     Database First Approach - Existing Database
+     Code First Approach - No Database. Database gets created thru the .net Application using migrations
+     Model First approach - No Database / no code. Constructing database thru models
+
+
+.Net Core : Is a significant redesign of asp.net to support modern cloud based connected applications, IoT,mobile applications,web applications, ML etc.
+
+- Open Source
+- Cross Platform
+- CLI Support
+- Modular and Leaner
+- Built in Dependencies
+- Light Weight 
+- Modular Http request Pipeline
+- Ability to host on multiple servers apart from IIS/Apache/Nginx
+- Multiple Editors Supprt (V Studio, VSCode, Sublime,Atom)
+
+Services : Is a component that is intended for common consumption in an application, which can be injected into the constructor/method/properties
+
+Middlewares : Application Components that perform asynchronous calls. They can invoke the next middleware or terminate the request directly. We generally "Use" the middleware. Asp.Net Core comes with rich set of middlewares
+
+UseIIS()
+Hosting Model : We have In_process and Out-of-Process.
+
+Kestrel : Cross Platform Web Server, which is a default internal web server.
+
+
+
+Core Applications does not have
+  - Global.asax
+  - web.config
+  - Page Life cycle
+  - Http Handlers and http Modules
+
+
  

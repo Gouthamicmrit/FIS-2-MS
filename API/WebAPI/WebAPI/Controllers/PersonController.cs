@@ -87,8 +87,8 @@ namespace WebAPI.Controllers
             {
                 return NotFound();
             }
-            return Ok(person);
-            //return new MyResult(person, Request);
+           // return Ok(person);
+            return new MyResult(person, Request);
 
 
         }

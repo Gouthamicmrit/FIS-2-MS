@@ -82,3 +82,4 @@ C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
 C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
 C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.dll
 C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.pdb
+C:\FIS-2\API\WebAPI\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
