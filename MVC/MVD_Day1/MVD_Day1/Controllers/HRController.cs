@@ -19,6 +19,7 @@ namespace MVD_Day1.Controllers
                 new Department{ID=2, Deptname="Accounts"},
                 new Department{ID=3, Deptname="HR"},
                 new Department{ID=4, Deptname="Admin"},
+                
             };
 
             return View("ListDepartment",deplist);
@@ -57,6 +58,11 @@ namespace MVD_Day1.Controllers
             };
 
             return View(emp);
+        }
+
+        public ActionResult ReceiveTempdata()
+        {
+            return View();
         }
 
     }

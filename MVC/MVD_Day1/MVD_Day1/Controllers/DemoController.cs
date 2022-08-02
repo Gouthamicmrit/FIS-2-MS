@@ -42,7 +42,7 @@ namespace MVD_Day1.Controllers
         public ViewResult ViewResultMethod()
         {
             ViewBag.Data = "This is the View Result of Demo Controller ";
-            return View();
+            return View();            
         }
 
         //action method 5
