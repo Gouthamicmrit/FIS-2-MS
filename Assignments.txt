@@ -1,0 +1,47 @@
+Assignment 1:
+
+Create a Model called Country with the following properties
+  Id,Countryname,Capital
+
+Create an Country API Controller
+
+Perform crud operations using either (IHttpActionResult, HttpResponseMessage) and show the changes to the user 
+
+Assignment 2:
+
+Create a MVC application which uses Entity Framework database-first approach to perform the following operations
+on the orders table containing (OrderId, CustomerName, OrderDate, OrderAmount) columns
+
+Tasks :
+
+ - List all orders
+ - Add a new Order
+ - Update the Order amount for an order
+
+Hint : Use the below script for creating database, tables, insert rows
+
+ Open Sql Studio Management Tool
+ Login with windows authentication 
+ Click New Query Option
+ Type : 
+
+create database AssignmentDB
+
+--execute, then type
+
+use AssignmentDB
+
+ --execute, then type
+
+create table Orders
+(OrderId int primary key,
+CustomerName varchar(30),
+OrderDate DateTime,
+OrderAmount float)
+
+--execute the above
+
+insert into Orders values(1001,'John','2022-06-06',23000),
+(1002,'Ben','2022-04-15',15000),(1003,'Tim','2022-01-05',35000)
+
+--execute the above
