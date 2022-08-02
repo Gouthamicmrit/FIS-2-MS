@@ -1,0 +1,28 @@
+
+Design Patterns : 
+S - Single Responsibility Principle (SRP)
+O - Open closed Principle  (OSP)
+L - Liskov Substitution Principle (LSP)
+I - Interface Segregation Principle (ISP)
+D - Dependency Inversion Principle (DIP)
+    Ioc : Inversion of control : Is the mechanism that allows a high level component to depend on abstraction rather than the concrete implementation of the lower component. is a programming framework that provides automatic DI of the component
+- is responsible for
+   - Registration : the type of object for specific dependency
+   - Resolution : Creating dependency object and injecting into the requesting class( no need to instantiate)
+   - Disposition : Manages the lifetime of the dependencies
+  
+DI - design pattern to inject the concrete impl.of a low level comp. to a high level. Can have 3 appraches
+ - Constructor Injection : Instance of the dependency can be passed as an argument to the constructor of the dependent class
+- Method Injection: As an argument to the method
+- Property Injection: assig instance of dependency to a specific property of the dependent class
+ 
+Web API -  is a concept that solely works on HTTP .RESTful services . It deals with only the data and not the view unlike the MVC 
+
+HTTP Verbs  CRUD
+ Get 
+ Post
+ Put
+ Delete
+
+- helps in content negotiation (xml/json/html/text)
+ 
