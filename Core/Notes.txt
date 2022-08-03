@@ -1,0 +1,36 @@
+Asp.Net Core: 
+
+appsettings.json : all application configuration settings viz.
+   Files
+   User Secrets
+   Environmental Variables
+   Command Line arguments
+
+launchsettings.json : required for development environ. 
+and informs the applications launchtypes i.e. IIS Express,or project
+
+Reverse proxy 
+
+Command Name        Hosting Model        Internal Webserver             External Webserver
+  
+Project              Ignore Hostings       Only Kestrel         
+
+IIS Express        In Process              Only IIS Built-in Sever
+
+IIS Express        Out-of-process          Kestrel is used                   IIS
+
+IIS                in-process             Only iis web server is used
+
+IIS                out-process             kestrel                           IIS
+
+wwwroot folder : maintains all the static files required for the application (js,css,html,images etc).
+                 to server these static files, we have to use app.UseStaticfiles() middleware
+
+Configuring Default pages : index.htm, index,html, default.htm, default.html are the default files that the server would search and render
+
+But if we want custom pages to be the default page, then we use the DefaultFileOptions class object and the add the custom page to the DefaultFileNames property
+
+
+FileServer() middleware can replace defaultfiles(), staticfiles() and directorybrowser() middlewares
+
+
