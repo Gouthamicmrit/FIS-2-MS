@@ -33,4 +33,25 @@ But if we want custom pages to be the default page, then we use the DefaultFileO
 
 FileServer() middleware can replace defaultfiles(), staticfiles() and directorybrowser() middlewares
 
+Entity Core : supports 2 approaches
+1. Database First
+2. Code First
+
+
+For working with EF Core, we need to install
+    1. Microsoft.EntityFrameworkCore
+    2. Microsoft.EntityFrameworkCore.Relational
+    3. Microsoft.EntityFrameworkCore.SqlServer  ---install, the above 2 packages will et automatically installed
+    4. Microsoft.EntityFrameworkCore.Tools (This enables models/context etx to be created in the absence of ADOEntityDataModel wizard)
+
+MVC application : Apart from the above packages, we will need to install 5. Microsoft.EntityFrameworkCore.Design
+
+Life time of DI objects
+Scoped : Provides one object to the DI for each request
+Transient : provides an object for each service call of the request
+SingleTon : creates an object for the first request, and Provides the same  object for subsequent requests
+
+
+
+
 
