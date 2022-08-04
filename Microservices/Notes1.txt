@@ -8,7 +8,7 @@ View : Is responsible for serving the web pages (UI to the client)
 
 Controller : responsible for all business logic. 
 
-MVC is a popukar framework for developing web based applications.
+MVC is a popular framework for developing web based applications.
 It is faster, robust and secure
 Is the next generation technology, successor to asp.net
 Is Light weight
