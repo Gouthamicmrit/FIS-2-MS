@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductServices", "ProductS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerServices", "CustomerServices\CustomerServices.csproj", "{4876B1E9-0A7B-495D-9066-053189B276FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingAPIGateway", "ShoppingAPIGateway\ShoppingAPIGateway.csproj", "{7F04DCA9-8C61-43D7-9025-E0D3DF314B96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4876B1E9-0A7B-495D-9066-053189B276FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4876B1E9-0A7B-495D-9066-053189B276FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4876B1E9-0A7B-495D-9066-053189B276FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F04DCA9-8C61-43D7-9025-E0D3DF314B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F04DCA9-8C61-43D7-9025-E0D3DF314B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F04DCA9-8C61-43D7-9025-E0D3DF314B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F04DCA9-8C61-43D7-9025-E0D3DF314B96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

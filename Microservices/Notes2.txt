@@ -72,9 +72,45 @@ API : Is an Appl. prog. interface through which, we can ensure two or more appll
 -take longer time to build
 
 
+API Gateway:  (44378 - customers service, 44392 - product services)
+
+Add a new Core Web Api project into the existing microservices application
+- Install Ocelot package fron nuget on the gateway project
+- Configure the project and define Microservices endpoints in the program.cs file of the api gateway
+- Add Ocelot Services followed by Ocelot Middleware and await the task in startup.cs
+ 
+- Configure the root at tghe gateway api as below
+
+  - DownStreamPathTemplate : actual path of the endpoint in the microservice to which the api gateway redirect all incoming client request
+
+ - DownStreamSchema : Schema used by microservice which are HTTPS
+- DownStreamHostAndPorts : defines the location of the Microservice (host and port numbers)
+- UpStreamPathTemplate - is apath directed to ocelot api gateway, that is exposed to send requests from the client
+- UpStreamHttpMethod - HTTP methods 
 
 
 
+as per our project we have 2 downstreams
+
+1. https://localhost:44378/api/customers - Downstream url
+
+2.  https://localhost:44392/api/products - Downstream url
+
+
+Assignment - Uber Microservices Management
+
+Passenger Management :  Get,Put,Post
+
+Driver Management : Get, Put, Post
+
+Uber gateway should connect up the microservices
+-------------------------------------
+
+Passenger UI
+
+Billing 
+
+Trip Management
 
 
 
