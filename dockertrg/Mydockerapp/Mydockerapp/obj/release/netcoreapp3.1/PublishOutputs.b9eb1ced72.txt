@@ -1,0 +1,7 @@
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\bin\release\netcoreapp3.1\publish\Mydockerapp.exe
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\bin\release\netcoreapp3.1\publish\appsettings.Development.json
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\bin\release\netcoreapp3.1\publish\appsettings.json
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\bin\release\netcoreapp3.1\publish\Mydockerapp.dll
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\bin\release\netcoreapp3.1\publish\Mydockerapp.deps.json
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\bin\release\netcoreapp3.1\publish\Mydockerapp.runtimeconfig.json
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\bin\release\netcoreapp3.1\publish\Mydockerapp.pdb

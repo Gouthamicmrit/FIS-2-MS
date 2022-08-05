@@ -1,0 +1,7 @@
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\obj\docker\publish\Mydockerapp.exe
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\obj\docker\publish\appsettings.Development.json
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\obj\docker\publish\appsettings.json
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\obj\docker\publish\Mydockerapp.dll
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\obj\docker\publish\Mydockerapp.deps.json
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\obj\docker\publish\Mydockerapp.runtimeconfig.json
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp\obj\docker\publish\Mydockerapp.pdb
