@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CustomerMicroServices;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using ProductMicroServices;
@@ -40,5 +41,29 @@ namespace BFFWeb.Controllers
 
         }
 
+
+        [HttpGet("GetAllCustomers")]
+        public async Task<List<CustomerDTO>> GetAllCustomers()
+        {
+            return await GetAllCustomersInternal();
+        }
+
+        private async Task<List<CustomerDTO>>
+        GetAllCustomersInternal()
+        {
+            string baseURL = "http://localhost:1274/api/";
+            string url = baseURL + "Customer/GetAllCustomers";
+            using (HttpClient client = new HttpClient())
+            {
+                using (HttpResponseMessage responseMessage = await client.GetAsync(url))
+                {
+                    using (HttpContent content = responseMessage.Content)
+                    {
+                        string data = await content.ReadAsStringAsync();
+                        return JsonConvert.DeserializeObject<List<CustomerDTO>>(data);
+                    }
+                }
+            }
+        }
     }
 }

@@ -22,4 +22,3 @@ C:\FIS-2\Microservices\ProductMicroServices\CustomerMicroServices\obj\Debug\netc
 C:\FIS-2\Microservices\ProductMicroServices\CustomerMicroServices\obj\Debug\netcoreapp3.1\CustomerMicroServices.dll
 C:\FIS-2\Microservices\ProductMicroServices\CustomerMicroServices\obj\Debug\netcoreapp3.1\CustomerMicroServices.pdb
 C:\FIS-2\Microservices\ProductMicroServices\CustomerMicroServices\obj\Debug\netcoreapp3.1\CustomerMicroServices.genruntimeconfig.cache
-C:\FIS-2\Microservices\ProductMicroServices\CustomerMicroServices\obj\Debug\netcoreapp3.1\CustomerMicroServices.csproj.AssemblyReference.cache

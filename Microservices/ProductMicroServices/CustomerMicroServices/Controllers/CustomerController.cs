@@ -18,7 +18,7 @@ namespace CustomerMicroServices.Controllers
             custrepo = customerrepo;
         }
 
-        [HttpGet]
+        [HttpGet("GetAllCustomers")]
         public async Task<List<Customer>>GetAllCustomers()
         {
             return await custrepo.GetAllCustomers();
