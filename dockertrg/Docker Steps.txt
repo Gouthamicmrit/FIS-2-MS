@@ -1,0 +1,35 @@
+1. Create a web core api application
+
+2. Either you can enable the docker while creating the project or you can add by right clicking the project (select Linux option)
+
+3. Build and run it once if needed
+4. Then move the project folder in the command prompt and type as below
+Example:
+
+C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp>docker images
+
+There may not be any docker images
+
+5. C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp>dotnet restore
+
+6. C:\FIS-2\dockertrg\Mydockerapp\Mydockerapp>dotnet publish -o obj/Docker/publish
+
+7. cd..
+- go to the parent dorectory where the .sln exists by typing cd.. 
+
+-C:\FIS-2\dockertrg\Mydockerapp>docker build -f Mydockerapp\Dockerfile --force-rm -t mydockerappimage .
+
+After running the above, it will take some time to build the image 
+
+now check by typing docker images. You will see the newly created image that contains the project
+
+8. Type docker ps and see the container id, image and the port
+
+9. Then type 
+docker run -d -p 8080:80 --name mydocapp mydockerappimage
+
+You will see some big number generated as below
+
+c040c6ebfe1cd4f54d8460926d3beff9c8df0f97b72d438d46a748a9952f8eca
+
+Check in the docker desktop, your container running succesfully.
